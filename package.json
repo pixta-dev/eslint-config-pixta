@@ -1,0 +1,45 @@
+{
+  "name": "eslint-config-pixta",
+  "version": "0.0.1",
+  "description": "PIXTA's ESLint config, following our styleguide",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pixta-dev/eslint-config-pixta.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "pixta",
+    "javascript",
+    "styleguide"
+  ],
+  "author": "Taka / 雀巽 (https://twitter.com/necojackarc)",
+  "contributors": [
+    {
+      "name": "Taka / 雀巽（じゃくそん）",
+      "url": "https://twitter.com/necojackarc"
+    },
+    {
+      "name": "Yuzi Suzuki",
+      "url": "https://twitter.com/yszk0123"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pixta-dev/eslint-config-pixta/issues"
+  },
+  "homepage": "https://github.com/pixta-dev/eslint-config-pixta#readme",
+  "devDependencies": {
+    "eslint": "^2.13.1",
+    "eslint-config-airbnb-base": "^3.0.1",
+    "eslint-plugin-import": "^1.8.1"
+  },
+  "peerDependencies": {
+    "eslint-config-airbnb-base": "^3.0.1"
+  }
+}
