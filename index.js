@@ -5,8 +5,7 @@ module.exports = {
   ],
   "rules": {
     "comma-dangle": ["error", "never"],
-    "import/no-unresolved": "off",
-    "no-underscore-dangle": ["error", { "allowAfterThis": true }],
-    "no-unused-vars": ["error", { "argsIgnorePattern": "^_" }]
+    "no-unused-vars": ["error", { "argsIgnorePattern": "^_" }],
+    "no-underscore-dangle": ["error", { "allowAfterThis": true }]
   }
 };
