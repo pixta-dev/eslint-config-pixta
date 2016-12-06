@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-pixta",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "PIXTA's ESLint config, following our styleguide",
   "main": "index.js",
   "scripts": {
