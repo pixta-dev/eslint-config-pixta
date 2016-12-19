@@ -28,27 +28,6 @@ Our style guide is based on:
 
 Only differences from base rules are shown below.
 
-### オブジェクトおよび配列リテラルでの末尾カンマの禁止 (comma-dangle)
-ESLint のデフォルト設定では末尾カンマは禁止されている。
-ただし、Airbnb スタイルガイドでは末尾カンマを許している。
-ピクスタでは、ESLint のデフォルト設定に従い、末尾カンマを禁止とする。
-
-* [comma-dangle: ["error", "never"]](http://eslint.org/docs/rules/comma-dangle#never)
-
-```javascript
-// bad
-{
-  hashimoto: "nanami",
-  nogizaka: "forty six",
-}
-
-// good
-{
-  hashimoto: "nanami",
-  nogizaka: "forty six"
-}
-```
-
 ### 未使用引数の先頭には`_`を付ける (no-unused-vars)
 デフォルト設定では、未使用の引数の存在をそもそも許さない。
 ピクスタでは、インターフェースを明示するために未使用引数の利用を許す。
